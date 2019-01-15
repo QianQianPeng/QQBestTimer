@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2272FD6521EDA76000FE5FE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2272FD6421EDA76000FE5FE4 /* AppDelegate.m */; };
+		2272FD6821EDA76000FE5FE4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2272FD6721EDA76000FE5FE4 /* ViewController.m */; };
+		2272FD6B21EDA76000FE5FE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2272FD6921EDA76000FE5FE4 /* Main.storyboard */; };
+		2272FD6E21EDA76000FE5FE4 /* QQBestTimer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2272FD6C21EDA76000FE5FE4 /* QQBestTimer.xcdatamodeld */; };
+		2272FD7021EDA76100FE5FE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2272FD6F21EDA76100FE5FE4 /* Assets.xcassets */; };
+		2272FD7321EDA76100FE5FE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2272FD7121EDA76100FE5FE4 /* LaunchScreen.storyboard */; };
+		2272FD7621EDA76100FE5FE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2272FD7521EDA76100FE5FE4 /* main.m */; };
+		2272FD8021EDA76100FE5FE4 /* QQBestTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2272FD7F21EDA76100FE5FE4 /* QQBestTimerTests.m */; };
+		2272FD8B21EDA76100FE5FE4 /* QQBestTimerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2272FD8A21EDA76100FE5FE4 /* QQBestTimerUITests.m */; };
+		2272FD9B21EDA77E00FE5FE4 /* QQBestTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2272FD9A21EDA77E00FE5FE4 /* QQBestTimer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2272FD7C21EDA76100FE5FE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2272FD5821EDA76000FE5FE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2272FD5F21EDA76000FE5FE4;
+			remoteInfo = QQBestTimer;
+		};
+		2272FD8721EDA76100FE5FE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2272FD5821EDA76000FE5FE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2272FD5F21EDA76000FE5FE4;
+			remoteInfo = QQBestTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2272FD6021EDA76000FE5FE4 /* QQBestTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QQBestTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2272FD6321EDA76000FE5FE4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2272FD6421EDA76000FE5FE4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2272FD6621EDA76000FE5FE4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2272FD6721EDA76000FE5FE4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2272FD6A21EDA76000FE5FE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2272FD6D21EDA76000FE5FE4 /* QQBestTimer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QQBestTimer.xcdatamodel; sourceTree = "<group>"; };
+		2272FD6F21EDA76100FE5FE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2272FD7221EDA76100FE5FE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2272FD7421EDA76100FE5FE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2272FD7521EDA76100FE5FE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2272FD7B21EDA76100FE5FE4 /* QQBestTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQBestTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2272FD7F21EDA76100FE5FE4 /* QQBestTimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQBestTimerTests.m; sourceTree = "<group>"; };
+		2272FD8121EDA76100FE5FE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2272FD8621EDA76100FE5FE4 /* QQBestTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQBestTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2272FD8A21EDA76100FE5FE4 /* QQBestTimerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQBestTimerUITests.m; sourceTree = "<group>"; };
+		2272FD8C21EDA76100FE5FE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2272FD9921EDA77E00FE5FE4 /* QQBestTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQBestTimer.h; sourceTree = "<group>"; };
+		2272FD9A21EDA77E00FE5FE4 /* QQBestTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQBestTimer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2272FD5D21EDA76000FE5FE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2272FD7821EDA76100FE5FE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2272FD8321EDA76100FE5FE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2272FD5721EDA76000FE5FE4 = {
+			isa = PBXGroup;
+			children = (
+				2272FD6221EDA76000FE5FE4 /* QQBestTimer */,
+				2272FD7E21EDA76100FE5FE4 /* QQBestTimerTests */,
+				2272FD8921EDA76100FE5FE4 /* QQBestTimerUITests */,
+				2272FD6121EDA76000FE5FE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2272FD6121EDA76000FE5FE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2272FD6021EDA76000FE5FE4 /* QQBestTimer.app */,
+				2272FD7B21EDA76100FE5FE4 /* QQBestTimerTests.xctest */,
+				2272FD8621EDA76100FE5FE4 /* QQBestTimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2272FD6221EDA76000FE5FE4 /* QQBestTimer */ = {
+			isa = PBXGroup;
+			children = (
+				2272FD9821EDA76F00FE5FE4 /* QQBestTimer */,
+				2272FD6321EDA76000FE5FE4 /* AppDelegate.h */,
+				2272FD6421EDA76000FE5FE4 /* AppDelegate.m */,
+				2272FD6621EDA76000FE5FE4 /* ViewController.h */,
+				2272FD6721EDA76000FE5FE4 /* ViewController.m */,
+				2272FD6921EDA76000FE5FE4 /* Main.storyboard */,
+				2272FD6F21EDA76100FE5FE4 /* Assets.xcassets */,
+				2272FD7121EDA76100FE5FE4 /* LaunchScreen.storyboard */,
+				2272FD7421EDA76100FE5FE4 /* Info.plist */,
+				2272FD7521EDA76100FE5FE4 /* main.m */,
+				2272FD6C21EDA76000FE5FE4 /* QQBestTimer.xcdatamodeld */,
+			);
+			path = QQBestTimer;
+			sourceTree = "<group>";
+		};
+		2272FD7E21EDA76100FE5FE4 /* QQBestTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				2272FD7F21EDA76100FE5FE4 /* QQBestTimerTests.m */,
+				2272FD8121EDA76100FE5FE4 /* Info.plist */,
+			);
+			path = QQBestTimerTests;
+			sourceTree = "<group>";
+		};
+		2272FD8921EDA76100FE5FE4 /* QQBestTimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2272FD8A21EDA76100FE5FE4 /* QQBestTimerUITests.m */,
+				2272FD8C21EDA76100FE5FE4 /* Info.plist */,
+			);
+			path = QQBestTimerUITests;
+			sourceTree = "<group>";
+		};
+		2272FD9821EDA76F00FE5FE4 /* QQBestTimer */ = {
+			isa = PBXGroup;
+			children = (
+				2272FD9921EDA77E00FE5FE4 /* QQBestTimer.h */,
+				2272FD9A21EDA77E00FE5FE4 /* QQBestTimer.m */,
+			);
+			path = QQBestTimer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2272FD5F21EDA76000FE5FE4 /* QQBestTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2272FD8F21EDA76100FE5FE4 /* Build configuration list for PBXNativeTarget "QQBestTimer" */;
+			buildPhases = (
+				2272FD5C21EDA76000FE5FE4 /* Sources */,
+				2272FD5D21EDA76000FE5FE4 /* Frameworks */,
+				2272FD5E21EDA76000FE5FE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QQBestTimer;
+			productName = QQBestTimer;
+			productReference = 2272FD6021EDA76000FE5FE4 /* QQBestTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2272FD7A21EDA76100FE5FE4 /* QQBestTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2272FD9221EDA76100FE5FE4 /* Build configuration list for PBXNativeTarget "QQBestTimerTests" */;
+			buildPhases = (
+				2272FD7721EDA76100FE5FE4 /* Sources */,
+				2272FD7821EDA76100FE5FE4 /* Frameworks */,
+				2272FD7921EDA76100FE5FE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2272FD7D21EDA76100FE5FE4 /* PBXTargetDependency */,
+			);
+			name = QQBestTimerTests;
+			productName = QQBestTimerTests;
+			productReference = 2272FD7B21EDA76100FE5FE4 /* QQBestTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2272FD8521EDA76100FE5FE4 /* QQBestTimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2272FD9521EDA76100FE5FE4 /* Build configuration list for PBXNativeTarget "QQBestTimerUITests" */;
+			buildPhases = (
+				2272FD8221EDA76100FE5FE4 /* Sources */,
+				2272FD8321EDA76100FE5FE4 /* Frameworks */,
+				2272FD8421EDA76100FE5FE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2272FD8821EDA76100FE5FE4 /* PBXTargetDependency */,
+			);
+			name = QQBestTimerUITests;
+			productName = QQBestTimerUITests;
+			productReference = 2272FD8621EDA76100FE5FE4 /* QQBestTimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2272FD5821EDA76000FE5FE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "彭倩倩";
+				TargetAttributes = {
+					2272FD5F21EDA76000FE5FE4 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					2272FD7A21EDA76100FE5FE4 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2272FD5F21EDA76000FE5FE4;
+					};
+					2272FD8521EDA76100FE5FE4 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2272FD5F21EDA76000FE5FE4;
+					};
+				};
+			};
+			buildConfigurationList = 2272FD5B21EDA76000FE5FE4 /* Build configuration list for PBXProject "QQBestTimer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2272FD5721EDA76000FE5FE4;
+			productRefGroup = 2272FD6121EDA76000FE5FE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2272FD5F21EDA76000FE5FE4 /* QQBestTimer */,
+				2272FD7A21EDA76100FE5FE4 /* QQBestTimerTests */,
+				2272FD8521EDA76100FE5FE4 /* QQBestTimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2272FD5E21EDA76000FE5FE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2272FD7321EDA76100FE5FE4 /* LaunchScreen.storyboard in Resources */,
+				2272FD7021EDA76100FE5FE4 /* Assets.xcassets in Resources */,
+				2272FD6B21EDA76000FE5FE4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2272FD7921EDA76100FE5FE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2272FD8421EDA76100FE5FE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2272FD5C21EDA76000FE5FE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2272FD9B21EDA77E00FE5FE4 /* QQBestTimer.m in Sources */,
+				2272FD6E21EDA76000FE5FE4 /* QQBestTimer.xcdatamodeld in Sources */,
+				2272FD6821EDA76000FE5FE4 /* ViewController.m in Sources */,
+				2272FD7621EDA76100FE5FE4 /* main.m in Sources */,
+				2272FD6521EDA76000FE5FE4 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2272FD7721EDA76100FE5FE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2272FD8021EDA76100FE5FE4 /* QQBestTimerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2272FD8221EDA76100FE5FE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2272FD8B21EDA76100FE5FE4 /* QQBestTimerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2272FD7D21EDA76100FE5FE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2272FD5F21EDA76000FE5FE4 /* QQBestTimer */;
+			targetProxy = 2272FD7C21EDA76100FE5FE4 /* PBXContainerItemProxy */;
+		};
+		2272FD8821EDA76100FE5FE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2272FD5F21EDA76000FE5FE4 /* QQBestTimer */;
+			targetProxy = 2272FD8721EDA76100FE5FE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2272FD6921EDA76000FE5FE4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2272FD6A21EDA76000FE5FE4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2272FD7121EDA76100FE5FE4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2272FD7221EDA76100FE5FE4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2272FD8D21EDA76100FE5FE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2272FD8E21EDA76100FE5FE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2272FD9021EDA76100FE5FE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D85489FXAD;
+				INFOPLIST_FILE = QQBestTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pengqianqian.QQBestTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2272FD9121EDA76100FE5FE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D85489FXAD;
+				INFOPLIST_FILE = QQBestTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pengqianqian.QQBestTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2272FD9321EDA76100FE5FE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QQBestTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pengqianqian.QQBestTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QQBestTimer.app/QQBestTimer";
+			};
+			name = Debug;
+		};
+		2272FD9421EDA76100FE5FE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QQBestTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pengqianqian.QQBestTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QQBestTimer.app/QQBestTimer";
+			};
+			name = Release;
+		};
+		2272FD9621EDA76100FE5FE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QQBestTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pengqianqian.QQBestTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QQBestTimer;
+			};
+			name = Debug;
+		};
+		2272FD9721EDA76100FE5FE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QQBestTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pengqianqian.QQBestTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QQBestTimer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2272FD5B21EDA76000FE5FE4 /* Build configuration list for PBXProject "QQBestTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2272FD8D21EDA76100FE5FE4 /* Debug */,
+				2272FD8E21EDA76100FE5FE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2272FD8F21EDA76100FE5FE4 /* Build configuration list for PBXNativeTarget "QQBestTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2272FD9021EDA76100FE5FE4 /* Debug */,
+				2272FD9121EDA76100FE5FE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2272FD9221EDA76100FE5FE4 /* Build configuration list for PBXNativeTarget "QQBestTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2272FD9321EDA76100FE5FE4 /* Debug */,
+				2272FD9421EDA76100FE5FE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2272FD9521EDA76100FE5FE4 /* Build configuration list for PBXNativeTarget "QQBestTimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2272FD9621EDA76100FE5FE4 /* Debug */,
+				2272FD9721EDA76100FE5FE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2272FD6C21EDA76000FE5FE4 /* QQBestTimer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2272FD6D21EDA76000FE5FE4 /* QQBestTimer.xcdatamodel */,
+			);
+			currentVersion = 2272FD6D21EDA76000FE5FE4 /* QQBestTimer.xcdatamodel */;
+			path = QQBestTimer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2272FD5821EDA76000FE5FE4 /* Project object */;
+}
